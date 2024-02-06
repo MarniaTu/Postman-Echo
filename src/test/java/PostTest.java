@@ -14,7 +14,7 @@ public class PostTest {
 // Выполняемые действия
                 .when().post("/post")
 // Проверки
-                .then().statusCode(200).body("data", equalTo("Wellington is the capital of New Zealand"));
+                .then().statusCode(200).body("data", equalTo("Wellinton is the capital of New Zealand"));
     }
 }
 
